@@ -1,7 +1,2 @@
-export default function HomePage() {
-  return (
-    <section>
-      <h1>Bienvenido a Taskflow</h1>
-    </section>
-  );
-}
+import PrincipalPage from "./pages/principal";
+export default function Home() { return <PrincipalPage />; }
